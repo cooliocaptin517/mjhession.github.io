@@ -1,0 +1,70 @@
+body {
+    background-image: url("imgs/redback.png");
+    color: black;
+    font-family: sans-serif;
+    margin: 0px;
+    text-align: center;
+}
+img {
+    max-width: 50%;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+    margin: 0 0 0 0;
+    padding: 0;
+}
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    background-color: gray;
+    margin: 5px;
+    padding: 3px;
+}
+.nav-bar a:hover {
+    color: black;
+    background-color: white;
+}
+.content {
+    justify-content: space-around;
+    margin: auto;
+}
+p {
+    text-align: justify;
+}
+.main-header h2 {
+    font-size: 90%;
+}
+.intro {
+    margin: 10px;
+}
+.box ul {
+    padding: 0;
+}
+.h4h4 {
+    color: lightgreen;
+}
+.box a {
+    color: black;
+    text-decoration: none;
+}
+.box a:visited {
+    color: red;
+}
+.box a:hover {
+    color: grey;
+}
+.box a:active {
+    color: blue;
+}
+.intro {
+    margin: auto;
+    text-align: center;
+}
+.card {
+    margin: auto;
+    width: 80%;
+}
